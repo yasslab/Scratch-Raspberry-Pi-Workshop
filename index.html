@@ -7,8 +7,8 @@
     <meta name="description" content="Scratch + Raspberry Pi Workshop : Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
     <title>Scratch + Raspberry Pi Workshop</title>
+    <script src="jquery-1.6.3.min.js"></script> 
   </head>
 
   <body bgcolor="black" onload="detectBrowser()">
@@ -36,38 +36,7 @@
 
 <p>Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)</p>
 
-
-<script type="text/javascript">
-function detectBrowser()
-{
-	/*
-    var fallback = true;
-    
-    if (navigator && navigator.vendor) {
-        if (navigator.vendor.search("Apple") != -1) {
-            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
-                if (vers >= 532) {
-                    fallback = false;
-                }
-        }
-    }
-    
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    if (fallback) {
-        window.location.replace( cropped + "assets/fallback/index.html" );
-    }
-    else {
-        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
-    }
-    */
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
-    
-    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
-}
-</script>
+<div id="includedContent"></div>
 
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
@@ -115,6 +84,41 @@ SOFTWARE.</p>
             } catch(err) {}
           </script>
 
+
+	  <script type="text/javascript">
+function detectBrowser()
+{
+	/*
+    var fallback = true;
+    
+    if (navigator && navigator.vendor) {
+        if (navigator.vendor.search("Apple") != -1) {
+            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
+                if (vers >= 532) {
+                    fallback = false;
+                }
+        }
+    }
+    
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    if (fallback) {
+        window.location.replace( cropped + "assets/fallback/index.html" );
+    }
+    else {
+        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
+    }
+    */
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    //window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+
+    $(function(){
+      $("#includedContent").load(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+    });
+}
+</script>
 
   </body>
 </html>

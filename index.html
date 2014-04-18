@@ -11,7 +11,7 @@
     <title>Scratch + Raspberry Pi Workshop</title>
   </head>
 
-  <body>
+  <body bgcolor="black" onload="detectBrowser()">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -35,6 +35,40 @@
 <a name="scratch--raspberry-pi-workshop" class="anchor" href="#scratch--raspberry-pi-workshop"><span class="octicon octicon-link"></span></a>Scratch + Raspberry Pi workshop</h1>
 
 <p>Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)</p>
+
+
+<script type="text/javascript">
+function detectBrowser()
+{
+	/*
+    var fallback = true;
+    
+    if (navigator && navigator.vendor) {
+        if (navigator.vendor.search("Apple") != -1) {
+            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,'$1'),0);
+                if (vers >= 532) {
+                    fallback = false;
+                }
+        }
+    }
+    
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    if (fallback) {
+        window.location.replace( cropped + "assets/fallback/index.html" );
+    }
+    else {
+        window.location.replace( cropped + "assets/player/KeynoteDHTMLPlayer.html" );
+    }
+    */
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+
+}
+</script>
 
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>

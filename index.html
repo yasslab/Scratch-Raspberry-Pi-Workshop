@@ -36,6 +36,9 @@
 
 <p>Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)</p>
 
+<object data="assets/player/KeynoteDHTMLPlayer.html" type="text/html" width="300" height="100">
+  <a href="assets/player/KeynoteDHTMLPlayer.html">Slides</a>
+</object>
 <div id="includedContent"></div>
 
 <h2>
@@ -114,9 +117,9 @@ function detectBrowser()
     var cropped = window.location.href.slice(0,slashIndex+1);
     //window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
 
-    $(function(){
-      $("#includedContent").load(cropped + "assets/player/KeynoteDHTMLPlayer.html");
-    });
+// $(function(){
+//      $("#includedContent").load(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+//    });
 }
 </script>
 

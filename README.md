@@ -3,6 +3,11 @@ Scratch + Raspberry Pi workshop
 
 Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)
 
+## Slides
+
+[![Cover Slide](https://raw.githubusercontent.com/yasulab-inc/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab-inc.github.io/Scratch-Raspberry-Pi-Workshop/)
+
+You can check out the slides from [HERE](http://yasulab-inc.github.io/Scratch-Raspberry-Pi-Workshop/).
 
 ## License
 

@@ -5,9 +5,9 @@ Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour es
 
 ## Slides
 
-[![Cover Slide](https://raw.githubusercontent.com/yasulab-inc/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab-inc.github.io/Scratch-Raspberry-Pi-Workshop/)
+[![Cover Slide](https://raw.githubusercontent.com/yasulab-inc/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
 
-You can check out the slides from [HERE](http://yasulab-inc.github.io/Scratch-Raspberry-Pi-Workshop/).
+You can check out the slides from [HERE](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/).
 
 ## License
 

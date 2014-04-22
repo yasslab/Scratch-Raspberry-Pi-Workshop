@@ -1,7 +1,7 @@
 Scratch + Raspberry Pi workshop
 ===============================
 
-Slides, images, and movies used for Scratch + Raspberry Pi Workshop (1.5 hour estimated)
+The 1.5-hour workshop for kids to learn Programming & Prototyping from scratch.
 
 ## Slides
 

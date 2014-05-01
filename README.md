@@ -5,7 +5,7 @@ The 1.5-hour workshop for kids to learn Programming & Prototyping from scratch.
 
 ## Slides
 
-[![Cover Slide](https://raw.githubusercontent.com/yasulab-inc/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
+[![Cover Slide](https://raw.githubusercontent.com/yasulab-co/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
 
 You can check out the slides from [HERE](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/).
 

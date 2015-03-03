@@ -5,15 +5,15 @@ The 1.5-hour workshop for kids to learn Programming & Prototyping from scratch.
 
 ## Slides
 
-[![Cover Slide](https://raw.githubusercontent.com/yasulab-co/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/)
+[![Cover Slide](https://raw.githubusercontent.com/yasulab-co/Scratch-Raspberry-Pi-Workshop/master/images/cover.png)](http://yasslab.jp/en/workshops/raspi/)
 
-You can check out the slides from [HERE](http://yasulab.com/Scratch-Raspberry-Pi-Workshop/).
+You can check out the slides from [HERE](http://yasslab.jp/en/workshops/raspi/).
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 YasuLab & Co.
+Copyright (c) 2015 YassLab.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
